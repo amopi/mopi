@@ -1,6 +1,7 @@
 {
     "name"       : "amopi/mopi",
     "type"       : "library",
+    "minimum-stability": "stable",
     "require"    : {
         "php"                         : ">=5.6",
         "symfony/dependency-injection": "^3.0",
@@ -8,8 +9,8 @@
         "symfony/console"             : "^3.0",
         "symfony/finder"              : "^3.0",
         "symfony/filesystem"          : "^3.0",
-        "amopi/logging"               : "^1.2.0",
-        "amopi/utils"                 : "^1.6.1",
+        "amopi/logging"               : "^1.2",
+        "amopi/utils"                 : "^1.6",
         "amopi/http"                  : "^2.0"
     },
     "suggest"    : {
