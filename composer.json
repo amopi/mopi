@@ -9,10 +9,24 @@
         "symfony/console"             : "^3.0",
         "symfony/finder"              : "^3.0",
         "symfony/filesystem"          : "^3.0",
-        "amopi/logging"               : "^1.2.0",
-        "amopi/utils"                 : "^1.6.1",
-        "amopi/http"                  : "^2.0"
+        "amopi/logging"               : "dev-master",
+        "amopi/utils"                 : "dev-master",
+        "amopi/http"                  : "dev-master"
     },
+    "repositories": [
+        {
+            "type":"git",
+            "url":"https://github.com/amopi/logging"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/amopi/utils"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/amopi/http"
+        }
+    ],
     "suggest"    : {
         "ext-pcntl": "*"
     },
