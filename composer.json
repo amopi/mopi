@@ -1,6 +1,5 @@
 {
     "name"       : "amopi/mopi",
-    "description": "slim app framework",
     "type"       : "library",
     "require"    : {
         "php"                         : ">=5.6",
